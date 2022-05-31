@@ -13,7 +13,7 @@ public class GuiApplication extends Application {
 
     @Override
     public void init() throws Exception {
-        applicationContext = new SpringApplicationBuilder(JavafxbootApplication.class).run();
+        applicationContext = new SpringApplicationBuilder(FxApplication.class).run();
     }
 
     @Override
@@ -28,7 +28,6 @@ public class GuiApplication extends Application {
     }
 
     public static class StageReadyEvent extends ApplicationEvent {
-
         public StageReadyEvent(Stage stage) {
             super(stage);
         }

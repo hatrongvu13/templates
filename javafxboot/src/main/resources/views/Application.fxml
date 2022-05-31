@@ -8,7 +8,7 @@
 
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.jax.javafxboot.controllers.MainController"
+            fx:controller="com.jax.javafxboot.controllers.ApplicationController"
             prefHeight="400.0" prefWidth="600.0">
-    <Label>abc</Label>
+
 </AnchorPane>
